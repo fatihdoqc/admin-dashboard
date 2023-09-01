@@ -1,2 +1,2 @@
 <?php
-    echo "no site";
+    echo "no site!";
