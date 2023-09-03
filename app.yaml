@@ -21,5 +21,6 @@ env_variables:
   GOOGLE_CLOUD_PROJECT: Dashboard
   MYSQL_HOST: mysql:unix_socket=/cloudsql/dashboard-397622:europe-west1:dashboard-db
   MYSQL_DB: dashboard_db
+  MYSQL_LDB: dashboardlocal
   MYSQL_USER: root
   MYSQL_PASSWORD: 123456
