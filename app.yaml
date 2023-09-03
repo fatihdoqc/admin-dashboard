@@ -19,3 +19,7 @@ handlers:
 env_variables:
   GOOGLE_APPLICATION_CREDENTIALS: permit_me.json
   GOOGLE_CLOUD_PROJECT: Dashboard
+  MYSQL_HOST: mysql:unix_socket=/cloudsql/dashboard-397622:europe-west1:dashboard-db
+  MYSQL_DB: dashboard_db
+  MYSQL_USER: root
+  MYSQL_PASSWORD: 123456
