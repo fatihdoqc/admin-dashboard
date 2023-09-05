@@ -9,5 +9,6 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="fomantic-ui" level="application" />
     <orderEntry type="library" name="semantic-ui" level="application" />
+    <orderEntry type="library" name="highcharts" level="application" />
   </component>
 </module>
