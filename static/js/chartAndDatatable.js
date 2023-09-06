@@ -25,6 +25,7 @@ $.ajax({
                 { title: 'Name' },
                 { title: 'Ram Usage (GB)' },
                 { title: 'Disc Usage (GB)' },
+                { title: ''}
             ],
             data: dataSet
         });

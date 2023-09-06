@@ -2,17 +2,10 @@
     <div class="header item">
         <span id="span-text">Dashboard</span>
     </div>
-    <a class="item">
-        <a href="home.php">Home</a>
-    </a>
-    <a class="item">
-        <a href="users.php">Users</a>
-    </a>
-
+    <a href="/" class="item" id="span-text">Home</a>
+    <a href="/users" class="item" id="span-text">Users</a>
     <div class="right menu">
-        <a class="item">
-            <span id="span-text">Fatih D.</span>
-        </a>
+        <a class="item" id="span-text">Fatih D.</a>
     </div>
 </div>
 
@@ -23,12 +16,9 @@
     #span-text{
         color: white;
     }
-    a{
-        font-size: 20px;
-        line-height: 2.78;
-        color: white;
-    }
     .item{
-        font-size: large;
+        color: white;
+        line-height: 2.78;
+        font-size: 20px;
     }
 </style>

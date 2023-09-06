@@ -1,8 +1,8 @@
 <?php
 
-//$host = getenv('MYSQL_HOST');
+//    $host = getenv('MYSQL_HOST');
 $host = "127.0.0.1";
-//$dbName = getenv('MYSQL_DB');
+//    $dbName = getenv('MYSQL_DB');
 $dbName = "dashboardlocal";
 //    $user = getenv('MYSQL_USER');
 $user = "root";
@@ -11,6 +11,7 @@ $pass = "";
 
 try{
     $dsn = "mysql:host=" . $host . ";dbname=" . $dbName;
+//    $dsn = $host . '; dbname=' . $dbName;
     $conn = new PDO($dsn, $user, $pass);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -18,7 +19,6 @@ try{
     $userQuery = "SELECT * FROM users";
     $stmt = $conn->prepare($userQuery);
 
-//    $stmt->execute(['str' => 'fdog']);
     $stmt->execute();
 
     $users = $stmt->fetchAll();

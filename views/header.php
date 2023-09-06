@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
 <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -7,8 +7,8 @@
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+<link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+<script src="https://nightly.datatables.net/js/jquery.dataTables.js"></script>
 
 <!DOCTYPE html>
 <html>
